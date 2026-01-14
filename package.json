@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "chai": "^6.2.1"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "fs-extra": "^11.3.2",
+    "jimp": "^0.22.10",
+    "geotiff": "^0.2.0",
+    "web3": "^4.16.0"
+  }
+}
