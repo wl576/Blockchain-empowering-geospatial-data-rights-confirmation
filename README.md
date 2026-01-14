@@ -80,7 +80,7 @@ Verify the ownership of a registered geospatial image.
 node utils/imageProcessor.js --verify --image ./tif --expectedOwner 0x742d35Cc6634C0532925a3b844Bc9e0F2A5C3b3e
 ```
 
-Where `--verify`is the flag to verify image ownership, `--image`is the path to the watermarked/registered image file, `--expectedOwner` is the Ethereum address of the expected owner.
+Where `--verify`is the flag to verify image ownership, `--tif`is the path to the watermarked/registered image file, `--expectedOwner` is the Ethereum address of the expected owner.
 
 Returns verification results including  `verified` is the boolean indicating verification success, `watermarkMatch` is the boolean indicating watermark extraction match, `blockchainVerified` is the boolean indicating blockchain verification success, `verificationTime` is the time taken for verification in ms, `extractedOwner` is the owner ID extracted from watermark
 
